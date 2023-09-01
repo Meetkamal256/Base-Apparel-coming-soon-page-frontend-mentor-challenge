@@ -8,24 +8,30 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main id="container">
-    <div id="wrapper">
-      <div class="bg-pattern">
-        
-      </div>
-      <div class="content">
-        <img src="images/logo.svg" alt="">
-        <h1 class="jumbotron">We're coming soon</h1>
-        <p>
-          Hello fellow shoppers! We're currently building our new fashion store. 
-          Add your email below to stay up-to-date with announcements and our launch deals.
+ <main>
+  <div class="container">
+    <div class="left">
+      <nav>
+        <img src="images/logo.svg" alt="" class="logo">
+      </nav>
+      <img src="images/hero-mobile.jpg" alt="bg" class="bg-mobile">
+      <div class="left-text">
+        <h1>
+          <span>we're</span> coming soon
+        </h1>
+        <p>Hello fellow shoppers! We're currently building our new fashion store. 
+          Add your email below to stay up to date with announcement and our launch deals. 
         </p>
-        <form>
-          <input type="text" id="email" name="email" placeholder="Email Address">
-        </form>
+        <div class="form-wrap">
+          <form id="form">
+            <input type="email" id="email" name="email" placeholder="Email Address">
+            <button type="submit"><img src="images/icon-arrow.svg" alt=""></button>
+          </form>
+        </div>
       </div>
-      <content-image><img src="images/hero-desktop.jpg" alt=""></content-image>
     </div>
-  </main>
+    <div class="right"></div>
+  </div>
+</main>
 </body>
 </html>
